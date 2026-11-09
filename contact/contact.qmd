@@ -1,0 +1,23 @@
+---
+title: "Contact"
+description: "联系与项目入口"
+toc: false
+---
+
+## Get in Touch
+
+欢迎通过 GitHub 查看项目代码与网站更新。
+
+::: {.contact-list}
+**GitHub Repository**  
+<https://github.com/kf1734528-hub/data-analytics-portfolio>
+
+**Email**  
+待补充
+
+**LinkedIn / 其他职业主页**  
+待补充
+:::
+
+公开联系方式补充后，本页将同步更新。请勿在仓库中提交私人数据、导师项目原始资料或其他敏感信息。
+

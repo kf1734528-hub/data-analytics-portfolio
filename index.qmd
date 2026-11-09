@@ -1,0 +1,105 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+::: {.hero-inner}
+<p class="eyebrow">APPLIED STATISTICS · DATA ANALYTICS · BUSINESS ANALYSIS</p>
+
+# Data Analytics Portfolio
+
+应用统计硕士研究生，专注于从复杂数据中建立清晰、可验证的分析结论。
+
+目前就读于中国地质大学（武汉）经济管理学院，正在准备 2027 年数据分析实习。本网站用于持续记录数据处理、统计建模、空间分析与商业分析项目。
+
+::: {.hero-actions}
+[查看项目](projects/index.qmd){.btn .btn-primary .btn-lg}
+[了解更多](about/profile.qmd){.btn .btn-outline-light .btn-lg}
+:::
+:::
+:::
+
+::: {.content-band}
+::: {.content-shell}
+## Focus Areas
+
+::: {.focus-grid}
+::: {.focus-item}
+### Applied Statistics
+
+以统计推断和回归分析为基础，关注方法选择、假设检验与结果解释。
+:::
+
+::: {.focus-item}
+### Data Analytics
+
+使用 Python 进行数据清洗、特征处理、数据匹配与可复现分析。
+:::
+
+::: {.focus-item}
+### Business Analysis
+
+围绕业务问题组织分析过程，逐步补充电商与用户价值分析案例。
+:::
+:::
+:::
+:::
+
+::: {.content-band .band-muted}
+::: {.content-shell}
+::: {.section-heading}
+## Selected Projects
+
+从研究问题、数据处理到分析方法，记录可复核的项目过程。项目结论与数据指标将在完成核验后补充。
+:::
+
+::: {.project-grid}
+::: {.project-card}
+<span class="status status-complete">已有项目</span>
+
+### 武汉二手房价格影响因素研究
+
+**Python · OLS · Moran's I · GIS**
+
+围绕武汉二手房价格影响因素开展数据清洗、特征处理、回归分析与空间自相关检验。
+
+[查看项目 →](projects/wuhan-housing/index.qmd)
+:::
+
+::: {.project-card}
+<span class="status status-complete">已有项目</span>
+
+### 广西河池矿业区块数据处理
+
+**Python · ArcGIS · Spatial Data**
+
+导师科研项目中的空间数据与属性数据处理工作，涉及数据匹配、模糊匹配和属性标准化。
+
+[查看项目 →](projects/hechi-mining/index.qmd)
+:::
+
+::: {.project-card}
+<span class="status status-planned">规划中</span>
+
+### 电商销售与用户行为分析
+
+项目范围、数据来源与分析问题待确定，不预设结论或业务指标。
+
+[查看项目总览 →](projects/index.qmd)
+:::
+:::
+:::
+:::
+
+::: {.content-band}
+::: {.content-shell .closing-callout}
+## 持续更新的分析档案
+
+这里不仅展示最终结果，也保留问题定义、数据处理、方法选择和局限性。新的项目会在数据来源与结果经过核验后发布。
+
+[浏览全部项目](projects/index.qmd){.btn .btn-dark}
+:::
+:::
+

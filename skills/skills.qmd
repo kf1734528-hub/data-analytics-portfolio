@@ -1,0 +1,53 @@
+---
+title: "Skills"
+description: "技术工具与分析方法"
+---
+
+## Technical Profile
+
+以下内容区分“已有项目中使用过的工具与方法”和“计划通过后续项目补充的能力”，不以未验证的熟练度标签代替项目证据。
+
+## 已有项目中使用
+
+::: {.skills-grid}
+::: {.skill-group}
+### Programming
+
+- **Python**：数据清洗、特征处理、数据匹配与模糊匹配
+:::
+
+::: {.skill-group}
+### Statistical Methods
+
+- **OLS**：回归分析
+- **Moran's I**：空间自相关检验
+:::
+
+::: {.skill-group}
+### Spatial Analysis
+
+- **ArcGIS**：空间数据与属性数据处理
+- **GIS workflows**：空间数据处理
+:::
+
+::: {.skill-group}
+### Data Preparation
+
+- 数据清洗
+- 属性标准化
+- 数据匹配与质量检查
+:::
+:::
+
+## 作品集技术栈
+
+- **Quarto / Markdown**：网站与可复现分析报告
+- **Git / GitHub**：版本管理与项目发布
+- **GitHub Pages**：静态网站托管
+
+## 待补充项目证据
+
+- **SQL**：将在后续项目中补充查询与数据分析案例
+- **R**：将在后续项目中补充统计分析案例
+- **Business Analysis**：将在电商与用户价值项目中补充业务问题拆解与指标分析
+

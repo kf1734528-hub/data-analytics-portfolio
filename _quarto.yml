@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Data Analytics Portfolio"
+  site-url: "https://kf1734528-hub.github.io/data-analytics-portfolio/"
+  description: "应用统计硕士研究生的数据分析与商业分析作品集"
+  favicon: assets/favicon.svg
+  navbar:
+    background: "#ffffff"
+    foreground: "#17212b"
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about/profile.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Skills"
+        href: skills/skills.qmd
+      - text: "Contact"
+        href: contact/contact.qmd
+    right:
+      - icon: github
+        href: "https://github.com/kf1734528-hub/data-analytics-portfolio"
+        aria-label: "GitHub repository"
+  page-footer:
+    left: "© 2026 Data Analytics Portfolio"
+    right: "Built with Quarto · Hosted on GitHub Pages"
+  open-graph: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+
+lang: zh
+

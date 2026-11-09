@@ -1,0 +1,56 @@
+---
+title: "Projects"
+description: "数据分析与商业分析项目总览"
+toc: false
+---
+
+## Project Portfolio
+
+项目按照当前状态分为“已有项目”和“规划中”。已有项目页面目前仅使用已确认的信息，后续可逐步补充研究背景、公开数据说明、代码与经核验的分析结果。
+
+::: {.project-grid}
+::: {.project-card}
+<span class="status status-complete">已有项目</span>
+
+### 武汉二手房价格影响因素研究
+
+使用 Python 进行数据清洗和特征处理，采用 OLS 回归分析与 Moran's I 空间自相关检验，并涉及 GIS 空间数据处理。
+
+`Python` `OLS` `Moran's I` `GIS`
+
+[进入项目](wuhan-housing/index.qmd)
+:::
+
+::: {.project-card}
+<span class="status status-complete">已有项目</span>
+
+### 广西河池矿业区块数据处理
+
+参与导师科研项目，处理矿业区块空间数据和属性数据，涉及数据匹配、模糊匹配与属性标准化。
+
+`Python` `ArcGIS` `Spatial Data`
+
+[进入项目](hechi-mining/index.qmd)
+:::
+
+::: {.project-card}
+<span class="status status-planned">规划中</span>
+
+### 电商销售与用户行为分析
+
+数据来源、分析问题、方法和结果均待确定。
+
+`待补充`
+:::
+
+::: {.project-card}
+<span class="status status-planned">规划中</span>
+
+### 用户分群与用户价值分析
+
+数据来源、分析问题、方法和结果均待确定。
+
+`待补充`
+:::
+:::
+
