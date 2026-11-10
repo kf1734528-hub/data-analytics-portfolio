@@ -208,6 +208,156 @@ body {
   border-left: 4px solid var(--teal);
 }
 
+.project-kicker {
+  margin: 0 0 0.75rem;
+  color: var(--teal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08rem;
+}
+
+.project-lead {
+  max-width: 780px;
+  margin: 0 0 1.75rem;
+  color: #33424e;
+  font-size: 1.12rem;
+  line-height: 1.85;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 2rem 0 3rem;
+}
+
+.metric-card {
+  min-width: 0;
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--teal);
+  border-radius: 6px;
+  background: var(--paper);
+}
+
+.metric-value,
+.metric-label {
+  display: block;
+}
+
+.metric-value {
+  color: var(--navy);
+  font-size: 1.45rem;
+  font-weight: 780;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.metric-label {
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.workflow-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.5rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.workflow-step {
+  position: relative;
+  min-width: 0;
+  padding: 1.2rem 1.2rem 1.2rem 3.9rem;
+  border-top: 1px solid var(--line);
+}
+
+.workflow-step h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.workflow-step p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.workflow-number {
+  position: absolute;
+  top: 1.1rem;
+  left: 0;
+  color: var(--teal);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.finding-banner {
+  margin: 1.5rem 0;
+  padding: 1.4rem 1.5rem;
+  color: #fff;
+  background: var(--navy);
+  border-left: 5px solid var(--gold);
+}
+
+.finding-banner h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.finding-banner p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.75;
+}
+
+.evidence-note {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  color: #3c4a54;
+  background: #eef6f4;
+  border-left: 4px solid var(--teal);
+}
+
+.evidence-note p:last-child {
+  margin-bottom: 0;
+}
+
+.project-figure {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto 2rem;
+  border: 1px solid var(--line);
+}
+
+.figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.figure-grid p {
+  min-width: 0;
+}
+
+.figure-grid .project-figure {
+  margin: 0.5rem auto 0.75rem;
+}
+
+figure figcaption {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+main.content table {
+  font-size: 0.92rem;
+}
+
 .skills-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -251,6 +401,18 @@ main.content > header .title {
     grid-template-columns: 1fr;
   }
 
+  .metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .workflow-list {
+    grid-template-columns: 1fr;
+  }
+
+  .figure-grid {
+    grid-template-columns: 1fr;
+  }
+
   .content-band {
     padding: 3.5rem 0;
   }
@@ -268,6 +430,16 @@ main.content > header .title {
 
   .hero-actions .btn {
     width: 100%;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-card,
+  .finding-banner,
+  .evidence-note {
+    padding: 1rem;
   }
 }
 

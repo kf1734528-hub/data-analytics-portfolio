@@ -59,11 +59,11 @@ toc: false
 ::: {.project-card}
 <span class="status status-complete">已有项目</span>
 
-### 武汉二手房价格影响因素研究
+### 武汉轨道交通可达性与二手房价格研究
 
 **Python · OLS · Moran's I · GIS**
 
-围绕武汉二手房价格影响因素开展数据清洗、特征处理、回归分析与空间自相关检验。
+基于 1,071 个住宅小区，分析社区属性、区位差异与轨道交通可达性和二手房价格之间的关系。
 
 [查看项目 →](projects/wuhan-housing/index.qmd)
 :::

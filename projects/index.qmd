@@ -12,11 +12,11 @@ toc: false
 ::: {.project-card}
 <span class="status status-complete">已有项目</span>
 
-### 武汉二手房价格影响因素研究
+### 武汉轨道交通可达性与二手房价格研究
 
-使用 Python 进行数据清洗和特征处理，采用 OLS 回归分析与 Moran's I 空间自相关检验，并涉及 GIS 空间数据处理。
+基于 1,071 个住宅小区，使用 Python 完成数据清洗、轨道交通 POI 特征构建、OLS 回归与 Moran's I 空间诊断。
 
-`Python` `OLS` `Moran's I` `GIS`
+`Python` `GeoPandas` `OLS` `Moran's I` `GIS`
 
 [进入项目](wuhan-housing/index.qmd)
 :::
